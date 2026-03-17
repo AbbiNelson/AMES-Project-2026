@@ -17,7 +17,7 @@ public class CustomerSpawner : MonoBehaviour
     // Update is called once per frame
     private IEnumerator customerSpawner(float interval, GameObject Customer)
     {
-        yield return new WaitforSeconds(interval);
+        yield return new WaitForSeconds(interval);
         GameObject newCustomer = Instantiate(Customer, new Vector3(Random.Range(-5f, 5), Random.Range(-6f, 6f), 0), Quaternion.identity);
         StartCoroutine(customerSpawner(interval, Customer));
     }
