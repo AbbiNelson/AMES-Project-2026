@@ -8,17 +8,29 @@ public class CustomerSpawner : MonoBehaviour
     private GameObject customerPrefab;
     [SerializeField]
     private float customerInterval = 5.0f;
+    [SerializeField]
+    private Transform customerSpawnpoint; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        StartCoroutine(customerSpawner(customerInterval, customerPrefab));  
+        StartCoroutine(customerSpawner(customerInterval, customerPrefab)); 
+        //Instantiate(customerPrefab, customerSpawnpoint.position, customerSpawnpoint.rotation);
     }
 
     // Update is called once per frame
     private IEnumerator customerSpawner(float interval, GameObject Customer)
     {
-        yield return new WaitForSeconds(interval);
-        GameObject newCustomer = Instantiate(Customer, new Vector3(Random.Range(-5f, 5), Random.Range(-6f, 6f), 0), Quaternion.identity);
-        StartCoroutine(customerSpawner(interval, Customer));
+        while (true)
+        {
+            yield return new WaitForSeconds(interval);
+
+            GameObject newCustomer = Instantiate
+            (
+                Customer,
+                customerSpawnpoint.position,
+                customerSpawnpoint.rotation
+            );
+        }
+
     }
 }
