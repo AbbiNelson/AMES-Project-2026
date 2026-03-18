@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class ItemCrafting : MonoBehaviour
 {
-    public string[] itemA;
-    public string[] itemB;
+    public Item[] itemA;
+    public Item[] itemB;
+    public Item[] itemC;
+    public Item[] itemD;
+    public Item[] Final;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
