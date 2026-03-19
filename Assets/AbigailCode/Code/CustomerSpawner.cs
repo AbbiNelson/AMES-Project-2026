@@ -14,7 +14,7 @@ public class CustomerSpawner : MonoBehaviour
     void Start()
     {
         StartCoroutine(customerSpawner(customerInterval, customerPrefab)); 
-        //Instantiate(customerPrefab, customerSpawnpoint.position, customerSpawnpoint.rotation);
+        
     }
 
     // Update is called once per frame
