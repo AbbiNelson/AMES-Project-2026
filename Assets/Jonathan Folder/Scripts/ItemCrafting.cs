@@ -1,32 +1,48 @@
 using NUnit.Framework;
 using System;
+using System.Linq;
 using UnityEngine;
 
 public class ItemCrafting : MonoBehaviour
 {
-    public Item[] itemA;
-    public Item[] itemB;
-    public Item[] itemC;
-    public Item[] itemD;
-    public Item[] Final;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Item[] items;
+
     void Start()
     {
-        
-    }
-    static void Main()
-    {
-        
+        Item newItem = Craft(items);
+        Debug.Log("Crafted item: " + newItem.name);
     }
 
-    // Update is called once per frame
-    void Update()
+    public Item Craft(Item[] items)
     {
+        Recipe[] recipes = Resources.LoadAll<Recipe>("Recipes");
         
+        foreach (Recipe recipe in recipes)
+        {
+            if (CheckIngredients(items, recipe.ingredients))
+            {
+                return recipe.output;
+            }
+        }
+
+        return null;
     }
 
-    private void OnMouseDrag()
+    private bool CheckIngredients(Item[] items, Item[] ingredients)
     {
-        
+        if (items.Length != ingredients.Length)
+        {
+            return false;
+        }
+
+        for (int i = 0; i < items.Length; ++i)
+        {
+            if (items[i] != ingredients[i])
+            {
+                 return false;
+            }
+        }
+
+        return true;
     }
 }

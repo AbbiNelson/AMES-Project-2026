@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
-  m_Name: Tripple Bow
+  m_Name: Triple Bow
   m_EditorClassIdentifier: 
   Icon: {fileID: 0}
   IsCursed: 0
