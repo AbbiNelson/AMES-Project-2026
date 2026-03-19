@@ -404,6 +404,7 @@ GameObject:
   - component: {fileID: 578524362}
   - component: {fileID: 578524361}
   - component: {fileID: 578524360}
+  - component: {fileID: 578524363}
   m_Layer: 5
   m_Name: start
   m_TagString: Untagged
@@ -428,8 +429,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000005722, y: 73}
-  m_SizeDelta: {x: 255.6034, y: 66.1427}
+  m_AnchoredPosition: {x: -0.0000085831, y: 86}
+  m_SizeDelta: {x: 162.9204, y: 75.473}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &578524360
 MonoBehaviour:
@@ -474,7 +475,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 578524361}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 578524363}
+        m_TargetAssemblyTypeName: StartScript, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: start button test scene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &578524361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,8 +508,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 5359290502976733440, guid: a3a6ca3068035704ba9dce4bd1ac788b, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -513,6 +526,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578524358}
   m_CullTransparentMesh: 1
+--- !u!114 &578524363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578524358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07315ca13e0c9be4293ca82ead8151ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &791905324
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,8 +575,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000013433, y: -135.5829}
-  m_SizeDelta: {x: 255.6, y: 64.9771}
+  m_AnchoredPosition: {x: 0.000015259, y: -129}
+  m_SizeDelta: {x: 142.5261, y: 66.8308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &791905326
 MonoBehaviour:
@@ -610,12 +635,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 791905326}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+        m_TargetAssemblyTypeName: ExitScript, Assembly-CSharp
+        m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -641,8 +666,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -8085017670394599680, guid: 69838697e2bc01747b576fd03716123f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
