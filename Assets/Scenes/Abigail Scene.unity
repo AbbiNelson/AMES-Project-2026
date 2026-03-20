@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Hello please work \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 296681291}
   - component: {fileID: 296681294}
   - component: {fileID: 296681293}
-  - component: {fileID: 296681292}
+  - component: {fileID: 296681295}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -294,23 +294,6 @@ RectTransform:
   m_AnchoredPosition: {x: 510, y: -37.49999}
   m_SizeDelta: {x: -1220, y: -275}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &296681292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296681290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fc18ede67177b1479e42639da8e052a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isInRange: 0
-  interactKey: 0
-  interactAction:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &296681293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +332,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296681290}
   m_CullTransparentMesh: 1
+--- !u!114 &296681295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296681290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc18ede67177b1479e42639da8e052a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - 'Please work '
+  textComponent: {fileID: 37040510}
+  textSpeed: 1
 --- !u!1 &1460259639
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,45 +556,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4644923112942867080, guid: b6b19dda8deb41e45b0a2227d1ae6401, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1547302456}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6b19dda8deb41e45b0a2227d1ae6401, type: 3}
---- !u!1 &1547302455 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4644923112942867080, guid: b6b19dda8deb41e45b0a2227d1ae6401, type: 3}
-  m_PrefabInstance: {fileID: 1547302454}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1547302456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547302455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fc18ede67177b1479e42639da8e052a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isInRange: 0
-  interactKey: 101
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1926724853
 GameObject:
   m_ObjectHideFlags: 0
