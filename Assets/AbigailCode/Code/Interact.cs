@@ -19,7 +19,7 @@ public class Interact : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(e))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if (textComponent.text == lines[index])
             {
@@ -54,7 +54,7 @@ public class Interact : MonoBehaviour
         {
             index++;
             textComponent.text = string.Empty;
-            StartCoroutine(TypeLine(index));
+            StartCoroutine(TypeLine());
         }
         else
         {
