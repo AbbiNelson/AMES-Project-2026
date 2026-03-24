@@ -2,15 +2,31 @@ using NUnit.Framework;
 using System;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ItemCrafting : MonoBehaviour
 {
-    public Item[] items;
+    public ItemSlot[] Slots;
+    public ItemSlot ResultSlot;
 
-    void Start()
+    public void CraftInSlots()
     {
-        Item newItem = Craft(items);
-        Debug.Log("Crafted item: " + newItem.name);
+        //get draggable item in each slot, get the item from it, and pass it to Craft
+        Item newItem = Craft(Slots.Select(slot => slot.GetComponentInChildren<DraggableItem>().item).ToArray());
+        
+        if (newItem != null)
+        {
+            foreach (ItemSlot slot in Slots)
+            {
+                Destroy(slot.transform.GetChild(0).gameObject);
+            }
+
+            GameObject newItemObj = new GameObject(newItem.name);
+            newItemObj.AddComponent<Image>().sprite = newItem.Icon;
+            newItemObj.AddComponent<DraggableItem>().item = newItem;
+
+            newItemObj.transform.SetParent(ResultSlot.transform, false);
+        }
     }
 
     public Item Craft(Item[] items)
