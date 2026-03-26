@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "StoreInteraction",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "5e7862a5-93d8-4840-99da-b192af92e634",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "60284dec-696f-4974-9544-163e2ca33d80",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dd0ed2df-8ec5-44af-8312-ecd2d69a94a8",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
