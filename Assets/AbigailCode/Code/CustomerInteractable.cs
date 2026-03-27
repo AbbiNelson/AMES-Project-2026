@@ -6,7 +6,8 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
 {
     public bool IsTalking {  get; private set; }
     public string CustomerID {  get; private set; }
-
+    public Interact interactScript;
+    public GameObject DialogueSystemGameObject;
     public bool CanInteract()
     {
         return !IsTalking;
@@ -16,7 +17,8 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
     {
         if (!CanInteract()) return;
 
-        
+        interactScript = GetComponent<Interact>();
+        DialogueSystemGameObject.SetActive(true);
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
