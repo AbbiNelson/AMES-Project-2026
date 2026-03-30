@@ -114,6 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2725547e5422db640a5042dbafd72a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canDrag: 1
 --- !u!1001 &7628716582585652602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -248,5 +249,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd49b6ef566625347986575b0816776e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  item: {fileID: 0}
   parentAfterDrag: {fileID: 0}
