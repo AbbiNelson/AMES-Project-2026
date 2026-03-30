@@ -18,7 +18,7 @@ public class ItemCrafting : MonoBehaviour
         {
             foreach (ItemSlot slot in Slots)
             {
-                Destroy(slot.transform.GetChild(0).gameObject);
+                
             }
 
             GameObject newItemObj = new GameObject(newItem.name);
