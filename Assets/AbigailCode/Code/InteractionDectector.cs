@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class InteractionDectector : MonoBehaviour
 {
@@ -10,13 +11,13 @@ public class InteractionDectector : MonoBehaviour
         interactionIcon.SetActive(false);   
     }
 
-    //public void OnInteract(InputAction.CallbackContext context)
-    //{
-        //if (context.preformed)
-        //{
-            //interactableInRange?.Interact();
-        //}
-    //}
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            interactableInRange?.Interact();
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
