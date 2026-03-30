@@ -6,8 +6,16 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
 {
     public bool IsTalking {  get; private set; }
     public string CustomerID {  get; private set; }
-    public Interact interactScript;
-    public GameObject DialogueSystemGameObject;
+    private Interact interactScript;
+    private GameObject DialogueSystemGameObject;
+    
+    void Awake()
+    {
+        interactScript = FindFirstObjectByType<Interact>();
+        DialogueSystemGameObject = GameObject.Find("DialogueCanvas");
+    }
+    
+    
     public bool CanInteract()
     {
         return !IsTalking;
