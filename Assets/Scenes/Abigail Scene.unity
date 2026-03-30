@@ -273,7 +273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &296681291
 RectTransform:
   m_ObjectHideFlags: 0
@@ -345,9 +345,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - 
+  - Hello waka
+  - 'waka '
   textComponent: {fileID: 37040510}
-  textSpeed: 5
+  textSpeed: 0.1
 --- !u!1 &1247884856
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1460259640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -661,6 +662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3259190d6bbb7b4db758f46f3b5b0fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactScript: {fileID: 296681295}
+  DialogueSystemGameObject: {fileID: 296681290}
 --- !u!1 &1780824200
 GameObject:
   m_ObjectHideFlags: 0
