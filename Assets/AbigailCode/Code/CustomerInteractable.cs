@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class CustomerInteractable : MonoBehaviour, IInteractable
 {
     public string[] lines;
+
     public bool IsTalking {  get; private set; }
     public string CustomerID {  get; private set; }
     private Interact interactScript;
