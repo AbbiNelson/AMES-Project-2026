@@ -182,5 +182,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3259190d6bbb7b4db758f46f3b5b0fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactScript: {fileID: 0}
-  DialogueSystemGameObject: {fileID: 0}
+  lines:
+  - Customer Test
