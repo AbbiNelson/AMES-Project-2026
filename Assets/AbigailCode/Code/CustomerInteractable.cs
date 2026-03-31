@@ -4,29 +4,30 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 public class CustomerInteractable : MonoBehaviour, IInteractable
 {
+    public string[] lines;
     public bool IsTalking {  get; private set; }
     public string CustomerID {  get; private set; }
     private Interact interactScript;
-    private GameObject DialogueSystemGameObject;
-    
+
     void Awake()
     {
-        interactScript = FindFirstObjectByType<Interact>();
-        DialogueSystemGameObject = GameObject.Find("DialogueCanvas");
+        interactScript = FindFirstObjectByType<Interact>(FindObjectsInactive.Include);
     }
-    
+     
     
     public bool CanInteract()
     {
         return !IsTalking;
     }
 
-    public void Interact()
+    public void OnInteract()
     {
         if (!CanInteract()) return;
 
-        interactScript = GetComponent<Interact>();
-        DialogueSystemGameObject.SetActive(true);
+        Debug.Log("PLEASE WORK!!!!!");
+        Interact.Lines = lines;
+
+        interactScript.gameObject.SetActive(true);
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
