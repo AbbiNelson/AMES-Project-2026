@@ -344,9 +344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc18ede67177b1479e42639da8e052a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines:
-  - Hello waka
-  - 'waka '
   textComponent: {fileID: 37040510}
   textSpeed: 0.1
 --- !u!1 &1247884856

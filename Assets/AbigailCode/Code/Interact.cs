@@ -4,7 +4,8 @@ using TMPro;
 
 public class Interact : MonoBehaviour
 {
-    public string[] lines;
+    public static string[] Lines;
+
     public TextMeshProUGUI textComponent;
     public float textSpeed;
 
@@ -21,14 +22,14 @@ public class Interact : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (textComponent.text == lines[index])
+            if (textComponent.text == Lines[index])
             {
                 NextLine();
             }
             else
             {
                 StopAllCoroutines();
-                textComponent.text = lines[index];
+                textComponent.text = Lines[index];
             }
         }
     }
@@ -41,7 +42,7 @@ public class Interact : MonoBehaviour
 
     IEnumerator TypeLine()
     {
-        foreach (char c in lines[index].ToCharArray())
+        foreach (char c in Lines[index].ToCharArray())
         {
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
@@ -50,7 +51,7 @@ public class Interact : MonoBehaviour
 
     void NextLine()
     {
-        if (index < lines.Length - 1)
+        if (index < Lines.Length - 1)
         {
             index++;
             textComponent.text = string.Empty;

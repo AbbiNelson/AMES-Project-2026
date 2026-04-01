@@ -15,7 +15,7 @@ public class InteractionDectector : MonoBehaviour
     {
         if (context.performed)
         {
-            interactableInRange?.Interact();
+            interactableInRange?.OnInteract();
         }
     }
 
