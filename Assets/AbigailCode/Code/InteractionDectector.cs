@@ -39,6 +39,9 @@ public class InteractionDectector : MonoBehaviour
 
     void OnMouseDown()
     {
-        interactableInRange?.OnInteract();
+        if (TryGetComponent(out IInteractable interactable))
+        {
+            interactable.OnInteract();
+        }
     }
 }
