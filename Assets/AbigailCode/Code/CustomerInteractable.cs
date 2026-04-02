@@ -5,14 +5,14 @@ using UnityEngine.UI;
 public class CustomerInteractable : MonoBehaviour, IInteractable
 {
     public string[] lines;
-
+    
     public bool IsTalking {  get; private set; }
     public string CustomerID {  get; private set; }
-    private Interact interactScript;
+    private Dialogue interactScript;
 
     void Awake()
     {
-        interactScript = FindFirstObjectByType<Interact>(FindObjectsInactive.Include);
+        interactScript = FindFirstObjectByType<Dialogue>(FindObjectsInactive.Include);
     }
      
     
@@ -26,7 +26,7 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
         if (!CanInteract()) return;
 
         Debug.Log("PLEASE WORK!!!!!");
-        Interact.Lines = lines;
+        Dialogue.Lines = lines;
 
         interactScript.gameObject.SetActive(true);
     }
