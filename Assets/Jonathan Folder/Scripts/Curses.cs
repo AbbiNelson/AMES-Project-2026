@@ -3,6 +3,14 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Curses", menuName = "Scriptable Objects/Curses")]
 public class Curses : ScriptableObject
 {
-    public int curseValue;
+    public enum CurseType
+    {
+        Fragility,
+        Heavy,
+        Large,
+        Small,
+        Sluggish
+    }
+    public Sprite icon;
     public string description;
 }
