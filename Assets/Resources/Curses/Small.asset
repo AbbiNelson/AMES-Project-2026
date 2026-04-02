@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b8a0fc9b0e23dd4a88e02ff94e20fa3, type: 3}
   m_Name: Small
   m_EditorClassIdentifier: 
-  curseValue: 4
+  icon: {fileID: -8581761429957041430, guid: bad44cfc87172a145b6dd1af1804d885, type: 3}
+  curseValue: 3
   description: Halves the size of the item
