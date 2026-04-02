@@ -36,4 +36,9 @@ public class InteractionDectector : MonoBehaviour
             interactionIcon.SetActive(false);
         }
     }
+
+    void OnMouseDown()
+    {
+        interactableInRange?.OnInteract();
+    }
 }

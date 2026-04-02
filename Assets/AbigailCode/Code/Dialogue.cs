@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using TMPro;
 
-public class Interact : MonoBehaviour
+public class Dialogue : MonoBehaviour
 {
     public static string[] Lines;
 
