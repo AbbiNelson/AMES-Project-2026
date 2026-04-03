@@ -45,4 +45,9 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
     {
         IsTalking = talked;
     }
+
+    public void TargetFunction()
+    {
+        Debug.Log("Check if working");
+    }
 }
