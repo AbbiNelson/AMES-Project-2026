@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon: {fileID: -6994623767228952245, guid: b589628579f648b49b6a7ab4115bfeba, type: 3}
   IsCursed: 0
+  isMaterial: 1

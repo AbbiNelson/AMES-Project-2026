@@ -6,6 +6,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 {
     public Item item;
     private Image image;
+    public bool trashable = true;
 
     [HideInInspector] public Transform parentAfterDrag;
 

@@ -15,9 +15,5 @@ public class TrashSpot : MonoBehaviour
             {
                  Destroy(slot.transform.GetChild(0).gameObject);
             }
-
-           
-
-
     }
 }
