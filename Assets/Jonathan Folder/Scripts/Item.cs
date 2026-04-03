@@ -5,5 +5,6 @@ public class Item : ScriptableObject
 {
     public Sprite Icon;
     public bool IsCursed;
+    public bool isMaterial;
 
 }

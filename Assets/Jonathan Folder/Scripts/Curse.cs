@@ -6,6 +6,7 @@ public class Curse : MonoBehaviour
 {
     public SerializedDictionary<Curses.CurseType, Curses> dictonary;
     public Curses curse;
+    public SpriteRenderer curseHolder;
 
     private Curses.CurseType valueCurse;
 
@@ -37,26 +38,50 @@ public class Curse : MonoBehaviour
     }
     public void Update()
     {
-   /*  if (valueCurse = 0)      
-     {
-          //set the curse holder to the new frail sprite
-     }
-     else if (valueCurse = 1)
-     {
-          //set the curse holder to the new heavy sprite
-     }
-     else if (valueCurse = 2)
-     {
-          //set the curse holder to the new large sprite
-     }
-     else if (valueCurse = 3)
-     {
-          //set the curse holder to the new small sprite
-     }
-     else if (valueCurse = 4)
-     {
-          //set the curse holder to the new sluggish sprite
-     }*/
+        if (valueCurse == Curses.CurseType.Fragility)
+        {
+            curseHolder.sprite = curse.icon;
+        }
+        else if (valueCurse == Curses.CurseType.Heavy)
+        {
+            curseHolder.sprite = curse.icon;
+        }
+        else if (valueCurse == Curses.CurseType.Large)
+        {
+            curseHolder.sprite = curse.icon;
+        }
+        else if (valueCurse == Curses.CurseType.Small)
+        {
+            curseHolder.sprite = curse.icon;
+        }
+        else if (valueCurse == Curses.CurseType.Sluggish)
+        {
+            curseHolder.sprite = curse.icon;
+        }
+    }
+
+    private void OnValidate()
+    {
+        if (valueCurse == Curses.CurseType.Fragility)
+        {
+            curseHolder.sprite = curse.icon;
+        }
+        else if (valueCurse == Curses.CurseType.Heavy)
+        {
+            curseHolder.sprite = curse.icon;
+        }
+        else if (valueCurse == Curses.CurseType.Large)
+        {
+            curseHolder.sprite = curse.icon;
+        }
+        else if (valueCurse == Curses.CurseType.Small)
+        {
+            curseHolder.sprite = curse.icon;
+        }
+        else if (valueCurse == Curses.CurseType.Sluggish)
+        {
+            curseHolder.sprite = curse.icon;
+        }
     }
 
 }
