@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CustomerWalk : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class CustomerWalk : MonoBehaviour
     private CustomerInteractable customerInteractable;
     private Vector3 currentTarget;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void awake()
+    void Awake()
     {
         customerInteractable = GetComponent<CustomerInteractable>(); 
     }
@@ -31,6 +32,11 @@ public class CustomerWalk : MonoBehaviour
                 
             }
             
+        }
+
+        if (transform.position == pointB && Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            customerInteractable.OnInteract();
         }
     }
 }
