@@ -36,7 +36,15 @@ public class CustomerWalk : MonoBehaviour
 
         if (transform.position == pointB && Mouse.current.leftButton.wasPressedThisFrame)
         {
-            customerInteractable.OnInteract();
+            Vector2 mousePos = Mouse.current.position.ReadValue();
+            Vector2 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
+
+            RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
+
+            if (hit && hit.collider.gameObject == gameObject)
+            {
+                customerInteractable.OnInteract();
+            }
         }
     }
 }
