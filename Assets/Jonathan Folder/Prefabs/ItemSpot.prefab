@@ -115,6 +115,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canDrag: 1
+  slotAmount: 0
+  allowMaterials: 1
 --- !u!1001 &7628716582585652602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -250,4 +252,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 0}
+  trashable: 1
   parentAfterDrag: {fileID: 0}
