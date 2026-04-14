@@ -25,6 +25,7 @@ public class ItemCrafting : MonoBehaviour
             newItemObj.AddComponent<Image>().sprite = newItem.Icon;
             newItemObj.AddComponent<DraggableItem>().item = newItem;
 
+            
             newItemObj.transform.SetParent(ResultSlot.transform, false);
         }
     }
