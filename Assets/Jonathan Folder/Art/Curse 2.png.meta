@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Curse 2_0: -3011824884564540784
+      Curse 2_1: 3090521524718121978
+      Curse 2_2: -7650691780113120045
+      Curse 2_3: -6539860154551792429
+      Curse 2_4: 1173888796432119707
+      Curse 2_5: -5696332491041753913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
