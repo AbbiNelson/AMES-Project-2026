@@ -550,6 +550,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6763800399565352487, guid: b6b19dda8deb41e45b0a2227d1ae6401, type: 3}
+      propertyPath: customer
+      value: 
+      objectReference: {fileID: 11400000, guid: 0b7c60e972f90194b95c36db208b7c72, type: 2}
+    - target: {fileID: -6763800399565352487, guid: b6b19dda8deb41e45b0a2227d1ae6401, type: 3}
+      propertyPath: lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6763800399565352487, guid: b6b19dda8deb41e45b0a2227d1ae6401, type: 3}
+      propertyPath: 'lines.Array.data[1]'
+      value: One last test
+      objectReference: {fileID: 0}
     - target: {fileID: 3437657945074648742, guid: b6b19dda8deb41e45b0a2227d1ae6401, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20
