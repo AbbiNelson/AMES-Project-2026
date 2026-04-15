@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Lapis
   m_EditorClassIdentifier: 
-  Icon: {fileID: -3770418913074052911, guid: 21a8528752f51d045ad3774e6afa0a13, type: 3}
+  Icon: {fileID: -4760741570898673449, guid: 96ff1dce5fa40e7468574c580b23f4a0, type: 3}
   IsCursed: 0
   isMaterial: 1

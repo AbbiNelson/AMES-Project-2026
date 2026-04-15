@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Greenanium
   m_EditorClassIdentifier: 
-  Icon: {fileID: -7543720355840265809, guid: 39022c2203f4df142a4c216e47104df9, type: 3}
+  Icon: {fileID: -1912153128075859565, guid: aa97192f3bcdccc42aa38ce78ade8d56, type: 3}
   IsCursed: 0
+  isMaterial: 0

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Magnet
   m_EditorClassIdentifier: 
-  Icon: {fileID: 5936438363836882242, guid: ed7f05e95a17bcd419d63e617e185cfe, type: 3}
+  Icon: {fileID: -8006815877711475722, guid: d7725c5268b05864597c7fa14ddbac3a, type: 3}
   IsCursed: 0
+  isMaterial: 0

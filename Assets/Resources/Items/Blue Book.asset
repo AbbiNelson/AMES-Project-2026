@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Blue Book
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
+  Icon: {fileID: 9067971671427756938, guid: 426872a7a8219a94e950644ca54c24b3, type: 3}
   IsCursed: 0
+  isMaterial: 0

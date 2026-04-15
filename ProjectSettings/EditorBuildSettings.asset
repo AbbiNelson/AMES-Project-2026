@@ -4,32 +4,6 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/Axel S/Start Menu.unity
-    guid: 64696dd161fe2dd4f8a9aced849ac5d0
-  - enabled: 1
-    path: Assets/Axel S/start button test scene.unity
-    guid: c00a88b7a9d82d74a9c8a8e75b6398e7
-  - enabled: 1
-    path: Assets/Credits/Credits hub.unity
-    guid: bc1f8b81f0cd2e54cab063c6df4fe4be
-  - enabled: 1
-    path: Assets/Credits/Axel S.unity
-    guid: ad98975d4d6f2aa48b641604858664ba
-  - enabled: 1
-    path: Assets/Credits/Abigail N.unity
-    guid: bf774fdc288df4448ae2ffe40bcff1ba
-  - enabled: 1
-    path: Assets/Credits/Gabriel C.unity
-    guid: 697e6cc3d7999ea46941c6a0aaaa2054
-  - enabled: 1
-    path: Assets/Credits/Jonathan L.unity
-    guid: ed3f78f9bee5fdd4dba73edc9496156e
-  m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: 7667cd40305d4a54f8aa28688f428dd9, type: 2}
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_Scenes: []
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

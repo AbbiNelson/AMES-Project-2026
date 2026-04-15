@@ -1,12 +1,13 @@
 using AYellowpaper.SerializedCollections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Curse : MonoBehaviour
 {
     public SerializedDictionary<Curses.CurseType, Curses> dictonary;
     public Curses curse;
-    public SpriteRenderer curseHolder;
+    public Image curseHolder;
 
     private Curses.CurseType valueCurse;
 

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Gold
   m_EditorClassIdentifier: 
-  Icon: {fileID: -4885617764984801874, guid: 7a6a923bf65d15e4eb10f895b9f64903, type: 3}
+  Icon: {fileID: 2548604964288094814, guid: 1abcaf4e934bd934381ac1789c7da02c, type: 3}
   IsCursed: 0
   isMaterial: 1

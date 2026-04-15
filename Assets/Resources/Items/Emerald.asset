@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Emerald
   m_EditorClassIdentifier: 
-  Icon: {fileID: -3873222469835129702, guid: ec324f95d125f9547a2d6ebc18af1a4c, type: 3}
+  Icon: {fileID: 5894224715834449811, guid: 971d61e28ed23fa4681ec0e64aed952a, type: 3}
   IsCursed: 0
   isMaterial: 1
