@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Magnet Axe
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
+  Icon: {fileID: 3888153617378397572, guid: 29b8b7e75cba8574b95903d4bdee17d9, type: 3}
   IsCursed: 0
+  isMaterial: 0
