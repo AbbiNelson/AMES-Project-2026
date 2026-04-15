@@ -4,18 +4,20 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 public class CustomerInteractable : MonoBehaviour, IInteractable
 {
-    public string[] lines;
+    public Customer customer;
     
     public bool IsTalking {  get; private set; }
     public string CustomerID {  get; private set; }
     private Dialogue interactScript;
+    public Recipe chosen;
 
     void Awake()
     {
         interactScript = FindFirstObjectByType<Dialogue>(FindObjectsInactive.Include);
     }
-     
-    
+
+   
+
     public bool CanInteract()
     {
         return !IsTalking;
@@ -26,7 +28,7 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
         if (!CanInteract()) return;
 
         Debug.Log("PLEASE WORK!!!!!");
-        Dialogue.Lines = lines;
+        Dialogue.Lines = customer.lines;
 
         interactScript.gameObject.SetActive(true);
     }
@@ -34,6 +36,8 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
     void Start()
     {
         CustomerID ??= GlobalHelper.GenerateUniqueID(gameObject);
+        int number = Random.Range(0, 4);
+        chosen = customer.requests[number];
     }
 
     private void CutsomerTalking()
