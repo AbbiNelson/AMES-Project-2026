@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a086ba27c8c3894bbf2cdf466f6583d, type: 3}
   m_Name: Customer 1
   m_EditorClassIdentifier: 
-  requests:
-  - {fileID: 11400000, guid: 50b952508edf8084d8bb73abd2a60d93, type: 2}
-  - {fileID: 11400000, guid: 687bbdbb7b23af148af023de9cbea64f, type: 2}
-  - {fileID: 11400000, guid: 32c17616f4109e54883f4edf06b934f3, type: 2}
-  - {fileID: 11400000, guid: d0163574d56720e4381fc94b338a8176, type: 2}
-  - {fileID: 11400000, guid: cdc2286b501f00b42bb159c645960a92, type: 2}
+  items:
+  - {fileID: 11400000, guid: fba0be992ccbc3f4797d4c144cc6693a, type: 2}
+  - {fileID: 11400000, guid: 6331ecd35c209394e9314ba327e5a60c, type: 2}
+  - {fileID: 11400000, guid: bf22985ccef24544faebf3635683612d, type: 2}
+  - {fileID: 11400000, guid: b04932988a9a7a14e98ef58c20988edc, type: 2}
   lines:
-  - Hello, hello? Testing something right now.
+  - 'Hello I would like a {0}. Make sure it''s high quality. '

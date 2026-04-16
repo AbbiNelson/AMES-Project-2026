@@ -1,7 +1,9 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine.UI;
+
 public class CustomerInteractable : MonoBehaviour, IInteractable
 {
     public Customer customer;
@@ -9,7 +11,7 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
     public bool IsTalking {  get; private set; }
     public string CustomerID {  get; private set; }
     private Dialogue interactScript;
-    public Recipe chosen;
+    public Item chosen;
 
     void Awake()
     {
@@ -28,7 +30,7 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
         if (!CanInteract()) return;
 
         Debug.Log("PLEASE WORK!!!!!");
-        Dialogue.Lines = customer.lines;
+        Dialogue.Lines = customer.lines.Select(line => string.Format(line, chosen.name)).ToArray();
 
         interactScript.gameObject.SetActive(true);
     }
@@ -37,7 +39,7 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
     {
         CustomerID ??= GlobalHelper.GenerateUniqueID(gameObject);
         int number = Random.Range(0, 4);
-        chosen = customer.requests[number];
+        chosen = customer.items[number];
     }
 
     private void CutsomerTalking()
