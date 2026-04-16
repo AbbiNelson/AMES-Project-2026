@@ -40,7 +40,7 @@ public class Curse : MonoBehaviour
     public void DoCurse()
     {
         Curses applyCurse = curse;
-        Debug.Log("Applied " + applyCurse.description);
+        Debug.Log("Applied " );
     }
     public void Update()
     {

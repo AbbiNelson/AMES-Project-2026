@@ -134,7 +134,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 728
+        width: 1563
         height: 955
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,33 +150,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Boots_1
-      rect:
-        serializedVersion: 2
-        x: 835
-        y: 0
-        width: 728
-        height: 955
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98728b47df83a1e10800000000000000
-      internalID: 2169108831768422281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 89049a03c6035b64089cc1fcfe4931b4
     internalID: 0
     vertices: []
     indices: 
@@ -187,7 +165,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Boots_0: 7902364575885455685
-      Boots_1: 2169108831768422281
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

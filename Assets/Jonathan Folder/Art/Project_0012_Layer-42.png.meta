@@ -135,12 +135,12 @@ TextureImporter:
       name: Project_0012_Layer-42_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 296
-        width: 443
-        height: 190
+        x: 0
+        y: 0
+        width: 894
+        height: 486
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,55 +153,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Project_0012_Layer-42_1
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 122
-        width: 819
-        height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a9d1ea425af17430800000000000000
-      internalID: 3779076793691134371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Project_0012_Layer-42_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 435
-        height: 187
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f1af4357d71d1bc0800000000000000
-      internalID: -3810863496102436359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2c390cd1be98d094e89400ce51b72f16
     internalID: 0
     vertices: []
     indices: 
