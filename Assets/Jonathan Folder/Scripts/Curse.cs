@@ -37,6 +37,11 @@ public class Curse : MonoBehaviour
 
         Debug.Log(valueCurse);
     }
+    public void DoCurse()
+    {
+        Curses applyCurse = curse;
+        Debug.Log("Applied " );
+    }
     public void Update()
     {
         if (valueCurse == Curses.CurseType.Fragility)
