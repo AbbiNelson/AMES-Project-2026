@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Magnet Gloves
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
+  Icon: {fileID: 4190508364932736391, guid: eda77f86fc5d0b24caf11c8b3dd12426, type: 3}
   IsCursed: 0
+  isMaterial: 0

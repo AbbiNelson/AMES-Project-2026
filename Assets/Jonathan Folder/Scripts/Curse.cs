@@ -40,7 +40,7 @@ public class Curse : MonoBehaviour
     public void DoCurse()
     {
         Curses applyCurse = curse;
-        Debug.Log("Applied " );
+        Debug.Log("Applied " + curse );
     }
     public void Update()
     {
@@ -63,6 +63,10 @@ public class Curse : MonoBehaviour
         else if (valueCurse == Curses.CurseType.Sluggish)
         {
             curseHolder.sprite = curse.icon;
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            DoCurse();
         }
     }
 

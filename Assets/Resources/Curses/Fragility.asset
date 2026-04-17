@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Fragility
   m_EditorClassIdentifier: 
   icon: {fileID: -120103210497744570, guid: eaa3375e637652645a6e563d7367a510, type: 3}
-  curseValue: 0
   description: Make the item more frail than glass
