@@ -141,94 +141,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Goggles concept_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1003
-        width: 47
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 55541a938d86106e0800000000000000
-      internalID: -1873100692120320683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goggles concept_1
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 1047
-        width: 132
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a68298a776b064d0800000000000000
-      internalID: -3143311914859067740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goggles concept_2
-      rect:
-        serializedVersion: 2
-        x: 1383
-        y: 1027
-        width: 197
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d60257b83ddb08a30800000000000000
-      internalID: 4215577967494242413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goggles concept_3
-      rect:
-        serializedVersion: 2
-        x: 1696
-        y: 944
-        width: 224
-        height: 136
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1453a8965b0e5e60800000000000000
-      internalID: 7952806458538808346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Goggles concept_4
       rect:
         serializedVersion: 2
@@ -237,7 +149,7 @@ TextureImporter:
         width: 933
         height: 289
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,33 +162,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Goggles concept_5
-      rect:
-        serializedVersion: 2
-        x: 1855
-        y: 0
-        width: 65
-        height: 516
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 946e64ee09814b6f0800000000000000
-      internalID: -669883433819380151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 267e4273621297642914671b5e6ac135
     internalID: 0
     vertices: []
     indices: 

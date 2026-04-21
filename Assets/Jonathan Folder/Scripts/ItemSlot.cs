@@ -3,11 +3,12 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 public class ItemSlot : MonoBehaviour, IDropHandler
 {
+    public static Item item;
+    
     public bool canDrag = true;
     public int slotAmount;
     public bool allowMaterials = true;
     public bool persistant = false;
-    static Item item;
 
     public void OnDrop(PointerEventData eventData)
     {

@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class Curse : MonoBehaviour
 {
-    public SerializedDictionary<Curses.CurseType, Curses> dictonary;
+    public SerializedDictionary<Curses.CurseType, Curses> Cdictonary;
     public Curses curse;
     public Image curseHolder;
+    public SerializedDictionary<ItemCrafting.ItemType, Item> Idictonary;
+    public ItemSlot itemslot;
 
     private Curses.CurseType valueCurse;
 
@@ -19,7 +21,7 @@ public class Curse : MonoBehaviour
             valueCurse = Curses.CurseType.Fragility;
         }
 
-        curse = dictonary[valueCurse];
+        curse = Cdictonary[valueCurse];
         //set the curse holder to the new curse's sprite
         
         Debug.Log(valueCurse);
@@ -33,14 +35,14 @@ public class Curse : MonoBehaviour
             valueCurse = Curses.CurseType.Sluggish;
         }
 
-        curse = dictonary[valueCurse];
+        curse = Cdictonary[valueCurse];
 
         Debug.Log(valueCurse);
     }
     public void DoCurse()
     {
         Curses applyCurse = curse;
-        Debug.Log("Applied " + curse );
+        Debug.Log("Applied " + curse + " to " + itemslot.GetComponentInChildren<DraggableItem>().item );
     }
     public void Update()
     {

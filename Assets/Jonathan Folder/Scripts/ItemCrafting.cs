@@ -8,6 +8,38 @@ public class ItemCrafting : MonoBehaviour
 {
     public ItemSlot[] Slots;
     public ItemSlot ResultSlot;
+    public enum ItemType
+    {
+        AutoAimers,
+        AutoCrossbow,
+        BlueBook,
+        Boots,
+        Chestplate,
+        Doohickey,
+        Emerald,
+        ExtendoGrabber,
+        ExtendoSword,
+        Glaivebow,
+        Goggles,
+        Gold,
+        Greatsword,
+        Greenanium,
+        Lapis,
+        LunarBlade,
+        MagicBow,
+        MagicHelmet,
+        Magnet,
+        MagnetAxe,
+        MagnetGloves,
+        Magnitite,
+        Orb,
+        Ruby,
+        Silver,
+        SpikeShield,
+        Staff,
+        TripleBow,
+        WarBow
+    }
 
     public void CraftInSlots()
     {
