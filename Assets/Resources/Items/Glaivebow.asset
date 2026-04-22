@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Glaivebow
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
+  Icon: {fileID: -6519244135274080087, guid: 38f17d66aa090e144b089978fbe4b820, type: 3}
   IsCursed: 0
+  isMaterial: 0
