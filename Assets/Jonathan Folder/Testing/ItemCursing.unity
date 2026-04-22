@@ -959,20 +959,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74b5db37f0dd88445a1fea8d7ea5d30f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dictonary:
-    _serializedList:
-    - Key: 0
-      Value: {fileID: 11400000, guid: 520eb6f5c73eb514795f73bcebed27b5, type: 2}
-    - Key: 1
-      Value: {fileID: 11400000, guid: 1a7f6814671e4544ba5eebea3c21c0cc, type: 2}
-    - Key: 2
-      Value: {fileID: 11400000, guid: bd888982ca92591458c2113291eb5c7f, type: 2}
-    - Key: 3
-      Value: {fileID: 11400000, guid: ec6f9b40b8742d448bd9d811f3317526, type: 2}
-    - Key: 4
-      Value: {fileID: 11400000, guid: 41bfcd3d2e3b7384ba1117543343937b, type: 2}
+  Cdictonary:
+    _serializedList: []
   curse: {fileID: 11400000, guid: 520eb6f5c73eb514795f73bcebed27b5, type: 2}
   curseHolder: {fileID: 1388881475}
+  Idictonary:
+    _serializedList: []
+  itemslot: {fileID: 1291051198}
 --- !u!114 &1388881475
 MonoBehaviour:
   m_ObjectHideFlags: 0
