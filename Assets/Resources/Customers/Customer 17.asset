@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Customer 17
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 60ec8fe4f7bc3624c841f026aef3e9e4, type: 2}
+  - {fileID: 11400000, guid: b04932988a9a7a14e98ef58c20988edc, type: 2}
+  - {fileID: 11400000, guid: 71d186ea5e9512348b63b3eec72aea45, type: 2}
+  - {fileID: 11400000, guid: 84972e15205e45a428d3773bed699ee9, type: 2}
   lines:
-  - 
+  - Alright need a {0}, make it snappy.
