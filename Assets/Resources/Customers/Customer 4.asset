@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Customer 4
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 6c4885097cd31cc46bfd738e874cdbdb, type: 2}
+  - {fileID: 11400000, guid: 04cca12a41bf9f841a7579503172da55, type: 2}
+  - {fileID: 11400000, guid: 145c05b2851ae4545ba24410faf7c79d, type: 2}
+  - {fileID: 11400000, guid: 6d8591226153b15459d3addb3a442d35, type: 2}
   lines:
-  - 
+  - 'One {0} please. '

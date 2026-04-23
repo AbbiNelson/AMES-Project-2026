@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Customer 3
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: bb3bc56952802d2439ebd3a2c6e76b27, type: 2}
+  - {fileID: 11400000, guid: 854fcff5253400f43a6c8431bbce9cd4, type: 2}
+  - {fileID: 11400000, guid: 0a3dae30d131d2b4d96739668e24c256, type: 2}
+  - {fileID: 11400000, guid: 6c4885097cd31cc46bfd738e874cdbdb, type: 2}
   lines:
-  - 
+  - Hello you do you sell {0}? If you do I would like it.

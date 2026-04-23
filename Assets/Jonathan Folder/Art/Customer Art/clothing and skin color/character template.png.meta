@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: c199ff9de30cd8444981e8b147153b68
+guid: cb4f35afc1349334ca8c884288ebe98d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8956858250713212106
-    second: skin purple_0
-  - first:
-      213: 8975060905794595911
-    second: skin purple_1
+      213: 174428766888741044
+    second: character template_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: skin purple_0
+      name: character template_0
       rect:
         serializedVersion: 2
-        x: 353
-        y: 36
-        width: 1239
-        height: 424
+        x: 365
+        y: 0
+        width: 1292
+        height: 968
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,30 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac4a941af172d4c70800000000000000
-      internalID: 8956858250713212106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skin purple_1
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 459
-        width: 570
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74ce1678752dd8c70800000000000000
-      internalID: 8975060905794595911
+      spriteID: 4b843011a02bb6200800000000000000
+      internalID: 174428766888741044
       vertices: []
       indices: 
       edges: []
@@ -186,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      skin purple_0: 8956858250713212106
-      skin purple_1: 8975060905794595911
+      character template_0: 174428766888741044
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

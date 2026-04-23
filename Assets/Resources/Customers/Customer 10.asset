@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Customer 10
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 27a2cfa22a862294dab885cca3ea01c3, type: 2}
+  - {fileID: 11400000, guid: bb3bc56952802d2439ebd3a2c6e76b27, type: 2}
+  - {fileID: 11400000, guid: 27a2cfa22a862294dab885cca3ea01c3, type: 2}
+  - {fileID: 11400000, guid: 04cca12a41bf9f841a7579503172da55, type: 2}
   lines:
-  - 
+  - I want a {0}.

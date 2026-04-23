@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Customer 6
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 57b6cbe21990dbf40a6fb7c7f880c7d1, type: 2}
+  - {fileID: 11400000, guid: 60ec8fe4f7bc3624c841f026aef3e9e4, type: 2}
+  - {fileID: 11400000, guid: 57b6cbe21990dbf40a6fb7c7f880c7d1, type: 2}
+  - {fileID: 11400000, guid: 8ce6c1003dc369e46844bfe16a74dd4b, type: 2}
   lines:
-  - 
+  - One {0}.
