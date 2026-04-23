@@ -9,7 +9,11 @@ public class CustomerSpawner : MonoBehaviour
     [SerializeField]
     private float customerInterval = 5.0f;
     [SerializeField]
-    private Transform customerSpawnpoint; 
+    private Transform customerSpawnpoint;
+
+    [SerializeField]
+    private Customer[] customers;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,14 +26,17 @@ public class CustomerSpawner : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(interval);
-
             GameObject newCustomer = Instantiate
             (
                 Customer,
                 customerSpawnpoint.position,
                 customerSpawnpoint.rotation
             );
+
+            newCustomer.GetComponent<CustomerInteractable>().customer = customers[Random.Range(0, customers.Length)];
+
+            yield return new WaitForSeconds(1f);
+            yield return new WaitUntil(() => FindObjectsByType<CustomerWalk>(FindObjectsSortMode.None).Length == 0);
         }
 
     }

@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a086ba27c8c3894bbf2cdf466f6583d, type: 3}
   m_Name: Customer 5
   m_EditorClassIdentifier: 
-  request: {fileID: 0}
+  items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lines:
+  - 
