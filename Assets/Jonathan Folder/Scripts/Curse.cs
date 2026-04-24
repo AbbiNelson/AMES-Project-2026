@@ -42,6 +42,7 @@ public class Curse : MonoBehaviour
     public void DoCurse()
     {
         Curses applyCurse = curse;
+        applyCurse.ApplyCurse(itemslot.GetComponentInChildren<DraggableItem>().item);
         Debug.Log("Applied " + curse + " to " + itemslot.GetComponentInChildren<DraggableItem>().item );
     }
     public void Update()
