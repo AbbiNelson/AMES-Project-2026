@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Curses", menuName = "Scriptable Objects/Curses")]
@@ -13,4 +14,9 @@ public class Curses : ScriptableObject
     }
     public Sprite icon;
     public string description;
+
+    internal void ApplyCurse(Item item)
+    {
+        throw new NotImplementedException();
+    }
 }
