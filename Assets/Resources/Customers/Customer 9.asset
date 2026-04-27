@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a086ba27c8c3894bbf2cdf466f6583d, type: 3}
+  m_Name: Customer 9
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4644923112942867080, guid: cdbfcb66fc444014e975a304b10e88ae, type: 3}
+  items:
+  - {fileID: 11400000, guid: 692dca09a52635449a99327ae608709d, type: 2}
+  - {fileID: 11400000, guid: 001c05b8805b70b45a8a905de1018714, type: 2}
+  - {fileID: 11400000, guid: 922910d4d02c1b641b6ebbc5d88288fe, type: 2}
+  - {fileID: 11400000, guid: 001c05b8805b70b45a8a905de1018714, type: 2}
+  lines:
+  - I need a {0} now, no time to explain!

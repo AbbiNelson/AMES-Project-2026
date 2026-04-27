@@ -12,4 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a086ba27c8c3894bbf2cdf466f6583d, type: 3}
   m_Name: Customer 5
   m_EditorClassIdentifier: 
-  request: {fileID: 0}
+  prefab: {fileID: 4644923112942867080, guid: 315d3c79750aaab46b16d01756f92fb3, type: 3}
+  items:
+  - {fileID: 11400000, guid: 33791ef362ff4f14da2f0508f45bf302, type: 2}
+  - {fileID: 11400000, guid: bf22985ccef24544faebf3635683612d, type: 2}
+  - {fileID: 11400000, guid: 71d186ea5e9512348b63b3eec72aea45, type: 2}
+  - {fileID: 11400000, guid: fba0be992ccbc3f4797d4c144cc6693a, type: 2}
+  lines:
+  - I need a {0} so make sure it isn't poor quality.

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a086ba27c8c3894bbf2cdf466f6583d, type: 3}
+  m_Name: Customer 8
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4644923112942867080, guid: b08e342fafb14d24281b665535c1f3f7, type: 3}
+  items:
+  - {fileID: 11400000, guid: b04932988a9a7a14e98ef58c20988edc, type: 2}
+  - {fileID: 11400000, guid: 692dca09a52635449a99327ae608709d, type: 2}
+  - {fileID: 11400000, guid: 6c4885097cd31cc46bfd738e874cdbdb, type: 2}
+  - {fileID: 11400000, guid: e61adfccba4df104fa92be91073e0a5d, type: 2}
+  lines:
+  - Are you the person that sells the {0}?
