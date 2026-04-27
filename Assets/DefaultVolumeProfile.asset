@@ -203,13 +203,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   type:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 4
   intensity:
     m_OverrideState: 0
-    m_Value: 0.25
+    m_Value: 0
   response:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   texture:
     m_OverrideState: 0
@@ -372,10 +372,10 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 2
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 10.01
   gaussianEnd:
     m_OverrideState: 1
     m_Value: 30
@@ -387,7 +387,7 @@ MonoBehaviour:
     m_Value: 0
   focusDistance:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 10.62
   aperture:
     m_OverrideState: 1
     m_Value: 5.6
