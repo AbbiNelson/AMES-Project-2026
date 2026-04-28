@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chud Interaction _0: 8056262570643808363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
