@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d81177f25a36c249b8dac4e78b2ac23
+guid: 87bc8a37ef098634e9f5aaf0661e8be7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3293989882340771005
-    second: Chud Customer Code_0
+      213: -4346244404228752641
+    second: Arrow_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chud Customer Code_0
+      name: Arrow_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 668
-        height: 163
+        x: 293
+        y: 330
+        width: 1387
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34bf85187a56942d0800000000000000
-      internalID: -3293989882340771005
+      spriteID: ffa7ae2edb90fa3c0800000000000000
+      internalID: -4346244404228752641
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Chud Customer Code_0: -3293989882340771005
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
