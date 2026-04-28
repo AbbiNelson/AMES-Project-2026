@@ -55,6 +55,7 @@ public class ItemCrafting : MonoBehaviour
 
             GameObject newItemObj = new GameObject(newItem.name);
             newItemObj.AddComponent<Image>().sprite = newItem.Icon;
+            newItemObj.GetComponent<Image>().preserveAspect = true;
             newItemObj.AddComponent<DraggableItem>().item = newItem;
 
             

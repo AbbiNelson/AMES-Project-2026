@@ -15,8 +15,8 @@ public class Curses : ScriptableObject
     public Sprite icon;
     public string description;
 
-    internal void ApplyCurse(Item item)
+    internal void ApplyCurse(DraggableItem item)
     {
-        throw new NotImplementedException();
+        item.Curse.Add(this);
     }
 }

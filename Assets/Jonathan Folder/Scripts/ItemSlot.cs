@@ -40,6 +40,7 @@ public class ItemSlot : MonoBehaviour, IDropHandler
         {
             GameObject newItemObj = new GameObject(item.name);
             newItemObj.AddComponent<Image>().sprite = item.Icon;
+            newItemObj.GetComponent<Image>().preserveAspect = true;
             newItemObj.AddComponent<DraggableItem>().item = item;
             newItemObj.transform.SetParent(transform, false);
         }
