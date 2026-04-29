@@ -38,8 +38,32 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
     void Start()
     {
         CustomerID ??= GlobalHelper.GenerateUniqueID(gameObject);
-        int number = Random.Range(0, 4);
-        chosen = customer.items[number];
+
+        if(CustomerSpawner.wantedItem == null)
+        {
+            int number = Random.Range(0, 4);
+            chosen = customer.items[number];
+            CustomerSpawner.wantedItem = chosen;
+        }
+        else
+        {
+            chosen = CustomerSpawner.wantedItem;
+        }
+    }
+
+    public void giveItem(Item item)
+    {
+        if(item == chosen)
+        {
+
+        }
+        else
+        {
+
+        }
+
+        CustomerSpawner.wantedItem = null;
+        GetComponent<CustomerWalk>().currentTarget = GetComponent<CustomerWalk>().pointA;
     }
 
     private void CutsomerTalking()
