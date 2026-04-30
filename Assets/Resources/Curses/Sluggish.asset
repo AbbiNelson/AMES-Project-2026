@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b8a0fc9b0e23dd4a88e02ff94e20fa3, type: 3}
   m_Name: Sluggish
   m_EditorClassIdentifier: 
-  icon: {fileID: 2539513570283996490, guid: c4e72bd81d00c04428623feab661b56f, type: 3}
-  curseValue: 4
+  icon: {fileID: 6655329398651410077, guid: 925e6d4c7c620044da0a536f163d9ca5, type: 3}
   description: Halves the speed the item moves
