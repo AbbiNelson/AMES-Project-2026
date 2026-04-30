@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b8a0fc9b0e23dd4a88e02ff94e20fa3, type: 3}
   m_Name: Heavy
   m_EditorClassIdentifier: 
-  icon: {fileID: -3940029448428644077, guid: e43a96139cc408c4eae6faa7afeb989d, type: 3}
-  curseValue: 1
+  icon: {fileID: -3011824884564540784, guid: cf6caa866f698894fa541a8ba6f549fb, type: 3}
   description: Makes the item 10x the weight
