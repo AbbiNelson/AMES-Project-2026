@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Extendo-Sword
   m_EditorClassIdentifier: 
-  Icon: {fileID: 8987023516917294514, guid: 0fc847029abf3ad48a26ed67df64b5ac, type: 3}
+  Icon: {fileID: -2330736275311922982, guid: 508b9433806628a49b88161a777b6d12, type: 3}
   IsCursed: 0
   isMaterial: 0

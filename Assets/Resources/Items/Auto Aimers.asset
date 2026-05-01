@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
-  m_Name: Aimbot Gauntlets
+  m_Name: Auto Aimers
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
+  Icon: {fileID: 6272617212179750592, guid: 8bc91bd790afbb34db89934ba31e5be7, type: 3}
   IsCursed: 0
+  isMaterial: 0
