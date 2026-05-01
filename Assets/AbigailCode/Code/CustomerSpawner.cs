@@ -29,9 +29,10 @@ public class CustomerSpawner : MonoBehaviour
             GameObject newCustomer = Instantiate
             (
                 customer.prefab,
-                customerSpawnpoint.position,
-                customerSpawnpoint.rotation
+                FindFirstObjectByType<Canvas>().transform
             );
+            newCustomer.transform.position = customerSpawnpoint.position;
+            newCustomer.transform.SetSiblingIndex(0);
 
             yield return new WaitForSeconds(1f);
             yield return new WaitUntil(() => FindObjectsByType<CustomerWalk>(FindObjectsSortMode.None).Length == 0);

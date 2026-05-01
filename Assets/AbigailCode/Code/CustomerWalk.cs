@@ -3,28 +3,31 @@ using UnityEngine.InputSystem;
 
 public class CustomerWalk : MonoBehaviour
 {
-    public Vector3 pointA;
-    public Vector3 pointB;
+    public Vector2 pointA;
+    public Vector2 pointB;
     public float speed = 1.0f;
     private CustomerInteractable customerInteractable;
-    private Vector3 currentTarget;
+    private Vector2 currentTarget;
+    private RectTransform rt;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
-        customerInteractable = GetComponent<CustomerInteractable>(); 
+        customerInteractable = GetComponent<CustomerInteractable>();
+        rt = GetComponent<RectTransform>();
     }
     
     void Start()
     {
-        currentTarget = pointA;
+        currentTarget = pointB;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, currentTarget, speed * Time.deltaTime);
+        rt.anchoredPosition = Vector3.MoveTowards(rt.anchoredPosition, currentTarget, speed * Time.deltaTime);
 
-        if(transform.position == currentTarget)
+        if(rt.anchoredPosition == currentTarget)
         {
             if (currentTarget == pointA)
             {
@@ -32,19 +35,6 @@ public class CustomerWalk : MonoBehaviour
                 
             }
             
-        }
-
-        if (transform.position == pointB && Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            Vector2 mousePos = Mouse.current.position.ReadValue();
-            Vector2 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
-
-            RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
-
-            if (hit && hit.collider.gameObject == gameObject)
-            {
-                customerInteractable.OnInteract();
-            }
         }
     }
 }

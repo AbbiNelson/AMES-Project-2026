@@ -22,7 +22,7 @@ public class CustomerInteractable : MonoBehaviour, IInteractable
 
     public bool CanInteract()
     {
-        return !IsTalking;
+        return !IsTalking && GetComponent<RectTransform>().anchoredPosition == GetComponent<CustomerWalk>().pointB;
     }
 
     public void OnInteract()
