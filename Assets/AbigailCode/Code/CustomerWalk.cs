@@ -7,11 +7,15 @@ public class CustomerWalk : MonoBehaviour
     public Vector3 pointB;
     public float speed = 1.0f;
     private CustomerInteractable customerInteractable;
-    public Vector3 currentTarget;
+    private Vector3 currentTarget;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         customerInteractable = GetComponent<CustomerInteractable>(); 
+    }
+    
+    void Start()
+    {
         currentTarget = pointA;
     }
 
