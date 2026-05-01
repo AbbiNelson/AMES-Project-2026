@@ -318,8 +318,8 @@ MonoBehaviour:
   m_text: This isnt gold, i have no clue what this is or where my dealer gets it,
     but its great for armor
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
+  m_sharedMaterial: {fileID: 827046887753369212, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -744,8 +744,8 @@ MonoBehaviour:
   m_text: An accursed alloy made from two emeralds, great for bows and bow related
     accessories
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
+  m_sharedMaterial: {fileID: 827046887753369212, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1425,8 +1425,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sharper than most people think, used in swords.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
+  m_sharedMaterial: {fileID: 827046887753369212, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1637,8 +1637,8 @@ MonoBehaviour:
   m_text: Lapis with ruby chunk in it, magnetic. if alone with it in a dark room,
     it may stab you.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
+  m_sharedMaterial: {fileID: 827046887753369212, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1913,8 +1913,8 @@ MonoBehaviour:
   m_text: Applifies effects of other materials, theres a non-zero chance to explodes
     on contact with water
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
+  m_sharedMaterial: {fileID: 827046887753369212, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2124,8 +2124,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Favored material of mad scientists, used to automate or extend objects.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
+  m_sharedMaterial: {fileID: 827046887753369212, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2325,8 +2325,8 @@ MonoBehaviour:
   m_text: Concenstrates magical forces, sought after for mage equipment, capable
     of limited sentience
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
+  m_sharedMaterial: {fileID: 827046887753369212, guid: 5a5d57d89d693864ab94108d622017f6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
