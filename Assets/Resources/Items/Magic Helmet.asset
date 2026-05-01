@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Magic Helmet
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
+  Icon: {fileID: 4654789549013517738, guid: 7f42ea334da75e040ad431cc6b688f98, type: 3}
   IsCursed: 0
+  isMaterial: 0

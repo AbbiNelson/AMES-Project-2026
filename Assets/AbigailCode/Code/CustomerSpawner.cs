@@ -4,9 +4,6 @@ using System.Collections;
 
 public class CustomerSpawner : MonoBehaviour
 {
-    public static Customer current;
-    public static Item wantedItem;
-
     [SerializeField]
     private float customerInterval = 5.0f;
     [SerializeField]
@@ -18,16 +15,8 @@ public class CustomerSpawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (current != null)
-        {
-            GameObject newcustomer = spawnCustomer(current);
-
-            newcustomer.transform.position = Vector3.zero;
-            var walk = newcustomer.GetComponent<CustomerWalk>();
-            walk.currentTarget = walk.pointB;
-        }
-
         StartCoroutine(customerSpawner(customerInterval)); 
+        
     }
 
     // Update is called once per frame
@@ -35,27 +24,18 @@ public class CustomerSpawner : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitUntil(() => FindObjectsByType<CustomerWalk>(FindObjectsSortMode.None).Length == 0);
-
             Customer customer = customers[Random.Range(0, customers.Length)];
-            current = customer;
 
-            spawnCustomer(customer);
+            GameObject newCustomer = Instantiate
+            (
+                customer.prefab,
+                customerSpawnpoint.position,
+                customerSpawnpoint.rotation
+            );
 
             yield return new WaitForSeconds(1f);
+            yield return new WaitUntil(() => FindObjectsByType<CustomerWalk>(FindObjectsSortMode.None).Length == 0);
         }
 
-    }
-
-    private GameObject spawnCustomer(Customer customer)
-    {
-        GameObject newCustomer = Instantiate
-        (
-            customer.prefab,
-            customerSpawnpoint.position,
-            customerSpawnpoint.rotation
-        );
-
-        return newCustomer;
     }
 }

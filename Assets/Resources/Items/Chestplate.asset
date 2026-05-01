@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e63aa5187e26b48a88eb6a524712a6, type: 3}
   m_Name: Chestplate
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
+  Icon: {fileID: -1189987072400875853, guid: 6410bbc4bfdc79b42971f35312ef94ef, type: 3}
   IsCursed: 0
+  isMaterial: 0
